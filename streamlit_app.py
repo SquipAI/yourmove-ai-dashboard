@@ -29,7 +29,7 @@ def check_password():
     st.caption("Press Enter to submit the password.")
 
     if "password_correct" in st.session_state:
-        st.error("😕 Password incorrect")
+        st.error("😕 You got it wrong")
     return False
 
 if not check_password():
